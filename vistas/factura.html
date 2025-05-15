@@ -1,0 +1,73 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+    <link rel="stylesheet" href="../public/estilos.css">
+    <script src="../public/script.js" defer></script>
+</head>
+<body>
+    <div class="documento">
+        <header>
+            <div class="empresa">
+                <img src="../public/img/logo.png" alt="Logo Empresa">
+                <h1>Factura</h1>
+                <p><strong>Empresa XYZ S.A.</strong></p>
+                <p>Dirección: Calle Ficticia 123</p>
+                <p>RUC: 1234567890001</p>
+                <p>Teléfono: (099) 123-4567</p>
+            </div>
+        </header>
+
+        <section class="cliente">
+            <h2>Datos del Cliente</h2>
+            <p><strong>Nombre:</strong> Juan Pérez</p>
+            <p><strong>Cédula/RUC:</strong> 0102030405</p>
+            <p><strong>Dirección:</strong> Av. Siempre Viva 742</p>
+            <p><strong>Contacto:</strong> (098) 765-4321</p>
+        </section>
+
+        <section class="productos">
+            <h2>Detalle de Productos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Descripción</th>
+                        <th>Cantidad</th>
+                        <th>Precio Unitario</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>Producto A</td>
+                        <td>2</td>
+                        <td>$10.00</td>
+                        <td>$20.00</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Producto B</td>
+                        <td>1</td>
+                        <td>$15.00</td>
+                        <td>$15.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="info-adicional">
+            <h2>Información Adicional</h2>
+            <p><strong>Forma de Pago:</strong> Efectivo</p>
+            <p><strong>Observaciones:</strong> Entregar sin contacto</p>
+            <footer>
+                <p>Gracias por su compra</p>
+                <p>www.empresaxyz.com</p>
+                <p id="fecha"></p>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
