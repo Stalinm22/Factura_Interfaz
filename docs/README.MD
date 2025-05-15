@@ -26,7 +26,7 @@
 ## 🧑‍💻 Autor
 
 **Cleber**  
-Desarrollado con ❤️ en Visual Studio Code.
+Desarrollado por cleber armijos.
 
 ---
 
